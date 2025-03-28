@@ -10,12 +10,12 @@ She return True for no problem and False if there is a problem.
 ` void setMode(uint8_t mode) `   
 This fonction is use to set the mode.  
 To set the actual Time you have to put a mode represented by :  
-BH1750_CONTINOUS_H_RES_MOD with value: 0x10, this is a continuous measurement with a resolution of 1 lux,  
-BH1750_CONTINOUS_H_RES2_MOD with value: 0x11, this is a continuous measurement with a resolution of 0.5 lux,  
-BH1750_CONTINOUS_L_RES_MOD with value: 0x13, this is a continuous measurement with a resolution of 4 lux,  
-BH1750_ONE_TIME_H_RES_MOD with value: 0x20, this is a One Time measurement with a resolution of 1 lux,  
-BH1750_ONE_TIME_H_RES2_MOD with value: 0x21, this is a One Time measurement with a resolution of 0.5 lux,  
-BH1750_ONE_TIME_L_RES_MOD with value: 0x23, this is a One Time measurement with a resolution of 4 lux  
+` BH1750_CONTINOUS_H_RES_MOD ` with value: 0x10, this is a continuous measurement with a resolution of 1 lux,  
+` BH1750_CONTINOUS_H_RES2_MOD ` with value: 0x11, this is a continuous measurement with a resolution of 0.5 lux,  
+` BH1750_CONTINOUS_L_RES_MOD ` with value: 0x13, this is a continuous measurement with a resolution of 4 lux,  
+` BH1750_ONE_TIME_H_RES_MOD ` with value: 0x20, this is a One Time measurement with a resolution of 1 lux,  
+` BH1750_ONE_TIME_H_RES2_MOD ` with value: 0x21, this is a One Time measurement with a resolution of 0.5 lux,  
+` BH1750_ONE_TIME_L_RES_MOD ` with value: 0x23, this is a One Time measurement with a resolution of 4 lux  
 > If you use a One Time mode make sure you use the PowerON() function before use readValue();  
 > When you use Visual Studio Code and you try to put a mode Visual Studio propose you some solution   
 
